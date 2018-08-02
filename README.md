@@ -1,1 +1,1 @@
-# my-git-cheatsheet
+# My GIT Cheatsheet
