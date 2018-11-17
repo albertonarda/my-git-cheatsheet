@@ -10,9 +10,15 @@
 
 ## Add existing project to a repository
 `git init`
+
 `git add .`
+
 `git commit -m "First commit"`
+
 `git remote add origin <remote-repository-URL>`
+
 `git remote -v`
+
 `git push -u origin master`
-`#note that the remote repository must be empty`
+
+`# the remote repository must be empty`
