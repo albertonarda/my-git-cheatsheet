@@ -5,6 +5,9 @@
 
 `git config --global user.email "john@doe.org"`
 
+## Update credential
+To update your credentials, go to Control Panel -> Credential Manager -> Generic Credentials
+
 ## Update remote branch list
 `git remote update origin --prune`
 
