@@ -28,3 +28,7 @@ To update your credentials, go to Control Panel -> Credential Manager -> Generic
 `git push -u origin master`
 
 `# the remote repository must be empty`
+
+## Rebase
+`git checkout experiment`
+`git rebase master`
