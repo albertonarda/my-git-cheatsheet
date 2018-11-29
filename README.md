@@ -11,6 +11,9 @@ To update your credentials, go to Control Panel -> Credential Manager -> Generic
 ## Update remote branch list
 `git remote update origin --prune`
 
+## Tree view
+`gitk --all`
+
 ## Add existing project to a repository
 `git init`
 
