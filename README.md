@@ -43,3 +43,9 @@ To update your credentials, go to Control Panel -> Credential Manager -> Generic
 copy the hash
 
 `git reset --hard HASH`
+
+## Go back to the most recent commit
+
+`git checkout master`
+
+`git pull`
