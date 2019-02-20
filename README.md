@@ -31,7 +31,15 @@ To update your credentials, go to Control Panel -> Credential Manager -> Generic
 
 ## Rebase
 `git checkout experiment`
+
 `git rebase master`
 
 ## Change remote URL
 `git remote set-url origin git@github.com:USERNAME/REPOSITORY.git`
+
+## Go to particular commit
+`git log --abbrev-commit --pretty=oneline`
+
+copy the hash
+
+`git reset --hard HASH`
