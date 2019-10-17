@@ -5,7 +5,11 @@
 
 `git config --global user.email "john@doe.org"`
 
-## Update credential
+## Use Window Credential Manager
+
+`git config --global credential.helper manager`
+
+## Update credential with Window Credential Manager
 To update your credentials, go to Control Panel -> Credential Manager -> Generic Credentials
 
 ## Update remote branch list
