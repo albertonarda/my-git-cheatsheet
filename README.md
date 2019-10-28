@@ -53,3 +53,15 @@ copy the hash
 `git checkout master`
 
 `git pull`
+
+## Add/stage all files
+
+`git add .`
+
+## View staged files
+
+`git diff --name-only --cached`
+
+## Un-stage all files
+
+`git reset`
