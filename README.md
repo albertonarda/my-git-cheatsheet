@@ -38,6 +38,9 @@ To update your credentials, go to Control Panel -> Credential Manager -> Generic
 
 `git rebase master`
 
+## View Remote Repository
+`git remote -v`
+
 ## Change remote URL
 `git remote set-url origin git@github.com:USERNAME/REPOSITORY.git`
 
