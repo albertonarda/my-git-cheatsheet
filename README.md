@@ -13,6 +13,18 @@ git config --global user.email "john@doe.org"
 git remote update origin --prune
 ```
 
+## List all branch
+
+```zsh
+git branch -a
+```
+
+## Delete local branch
+
+```zsh
+git branch -d <branchname>
+```
+
 ## Delete remote branch
 
 ```zsh
