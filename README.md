@@ -68,3 +68,15 @@ copy the hash
 ## Un-stage all files
 
 `git reset`
+
+## List all branch
+
+git branch -a
+
+## Delete remote branch
+
+`git push origin --delete test`
+
+## Delete local branch
+
+`git branch -d test`
