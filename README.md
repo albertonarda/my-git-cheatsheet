@@ -107,6 +107,12 @@ git diff --name-only --cached
 git reset
 ```
 
+## Search for a specific commit
+
+```sh
+git log --grep="<search term>"
+```
+
 ## Use Window Credential Manager
 
 ```sh
