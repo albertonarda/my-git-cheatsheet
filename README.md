@@ -1,31 +1,31 @@
 # My GIT Cheatsheet
 
-## Update username and email
+## 🆔 Update username and email
 
 ```zsh
 git config --global user.name "John Doe"
 git config --global user.email "john@doe.org"
 ```
 
-## Update remote branch list
-
-```zsh
-git remote update origin --prune
-```
-
-## List all branch
+## 🕊 List all branches
 
 ```zsh
 git branch -a
 ```
 
-## Delete local branch
+## 🔁🏝🕊 Update remote branches list
+
+```zsh
+git remote update origin --prune
+```
+
+## ⌫🕊 Delete local branch
 
 ```zsh
 git branch -d <branchname>
 ```
 
-## Delete remote branch
+## ⌫🏝🕊 Delete remote branch
 
 ```zsh
 git push -d <remote_name> <branchname>
@@ -33,13 +33,13 @@ git push -d <remote_name> <branchname>
 
 Note: In most cases, <remote_name> will be origin.
 
-## Tree view
+## 🌲 Tree view
 
 ```zsh
 gitk --all
 ```
 
-## Add existing project to a repository
+## ➕ Add existing project to a repository
 
 ```sh
 git init
@@ -51,26 +51,26 @@ git push -u origin master
 # the remote repository must be empty
 ```
 
-## Rebase
+## ⛺️ Rebase
 
 ```sh
 git checkout experiment
 git rebase master
 ```
 
-## View Remote Repository
+## 👓🏝 View Remote Repository
 
 ```sh
 git remote -v
 ```
 
-## Change remote URL
+## 🏝📇 Change remote URL
 
 ```sh
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```
 
-## Go to particular commit
+## 📍 Go to a specific commit
 
 ```sh
 git log --abbrev-commit --pretty=oneline
@@ -82,43 +82,43 @@ copy the hash
 git reset --hard HASH
 ```
 
-## Go back to the most recent commit
+## ⏮📍 Go back to the most recent commit
 
 ```sh
 git checkout master
 git pull
 ```
 
-## Add/stage all files
+## ➕💥 Add/stage all files
 
 ```sh
 git add .
 ```
 
-## View staged files
+## 👓 View staged files
 
 ```sh
 git diff --name-only --cached
 ```
 
-## Un-stage all files
+## ➖💥 Un-stage all files
 
 ```sh
 git reset
 ```
 
-## Search for a specific commit
+## 🔍📍 Search for a specific commit
 
 ```sh
 git log --grep="<search term>"
 ```
 
-## Use Window Credential Manager
+## 🪟 Use Windows Credential Manager
 
 ```sh
 git config --global credential.helper manager
 ```
 
-## Update credential with Window Credential Manager
+## 🔁🪟 Update credential with Windows Credential Manager
 
 To update your credentials, go to Control Panel -> Credential Manager -> Generic Credentials
