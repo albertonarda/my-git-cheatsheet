@@ -113,6 +113,12 @@ git reset
 git log --grep="<search term>"
 ```
 
+## 🍕 Amend a commit
+
+```sh
+git commit --amend --no-edit
+```
+
 ## 🪟 Use Windows Credential Manager
 
 ```sh
