@@ -60,11 +60,11 @@ git push -u origin master
 # the remote repository must be empty
 ```
 
-## ⛺️ Rebase
+## ⛺️ Rebase (interactive)
 
 ```sh
 git checkout experiment
-git rebase master
+git rebase -i master
 ```
 
 ## 👓🏝 View Remote Repository
